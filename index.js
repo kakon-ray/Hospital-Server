@@ -74,10 +74,10 @@ async function run() {
 run().catch(console.dir());
 
 app.get("/", (req, res) => {
-  res.send("Running My Node Croude Server");
+  res.send("Running Hospital Server");
 });
 
 // db users
 app.listen(port, () => {
-  console.log("CROUD server is Running");
+  console.log("Hospital server is Running");
 });
